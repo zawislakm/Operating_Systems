@@ -1,0 +1,4 @@
+
+Czas rzeczywisty: 5677500 ns
+Czas użytkownika: 0 ns
+Czas systemowy: 0 ns

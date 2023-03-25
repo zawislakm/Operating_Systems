@@ -1,0 +1,34 @@
+Repl>
+Czas rzeczywisty: 52000 ns
+Czas użytkownika: 0 ns
+Czas systemowy: 0 ns
+Repl>
+Czas rzeczywisty: 37021600 ns
+Czas użytkownika: 0 ns
+Czas systemowy: 0 ns
+Repl>
+Czas rzeczywisty: 37653100 ns
+Czas użytkownika: 15625000 ns
+Czas systemowy: 15625000 ns
+Repl>
+init 1000
+count test.txt
+count test.txt
+show 0
+delete index 0
+destroy
+exit
+
+
+Czas rzeczywisty: 2300 ns
+Czas użytkownika: 0 ns
+Czas systemowy: 0 ns
+Repl>
+Czas rzeczywisty: 1200 ns
+Czas użytkownika: 0 ns
+Czas systemowy: 0 ns
+Repl>
+Czas rzeczywisty: 3800 ns
+Czas użytkownika: 0 ns
+Czas systemowy: 0 ns
+Repl>

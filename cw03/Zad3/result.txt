@@ -1,0 +1,6 @@
+Wywołanie dla scieżki .// oraz słowa szukanego #include
+
+./main ../ \#include
+..//Zad1/main.c 31363
+..//Zad2/main.c 31364
+..//Zad3/main.c 31365

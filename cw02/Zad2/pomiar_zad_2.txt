@@ -1,0 +1,1 @@
+Wczytywanie bloków po 1024 jest szybsze niż po jedynczo

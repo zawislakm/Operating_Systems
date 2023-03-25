@@ -1,0 +1,3 @@
+Zadanie zrobione na 100%
+Biblioteka statyczna wiekoszci przypadków jest szybsza od biblioteki linkowanej i dynamicznej, zdarzają się że któreś z tych dwóch pokazują lepsze wyniki od statycznej ale może to wynikać z jakieś nie dokładności pomiarów
+Miedzy flaga O1 a O2 zauważam najwieksze różnice czasowe

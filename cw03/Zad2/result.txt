@@ -1,0 +1,4 @@
+Wywołanie dla ../
+
+./main ../
+./main Zad1  Zad2  Zad3  cmake-build-debug

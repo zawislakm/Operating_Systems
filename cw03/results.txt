@@ -1,0 +1,15 @@
+Udało sie wykonać wszystkie cwiczenia
+
+Zad1:
+    Wyniki wywołania dla 4 i 10 znajduja sie w pliku result.txt w folderze Zad1
+    Program tworzy podana ilosc potomków i wypisuje ich pid oraz swój
+
+Zad2:
+    Wyniki wywołania dla ../ znajduja sie w pliku result.txt w folderze Zad2
+    Program wypisuje swoja nazwe wywołania oraz rzeczy znajdujace sie w podanej sciezce pliku
+
+Zad3:
+    Wyniki wywołania dla ../ oraz słowa kluczowego #include znajduja sie w pliku result.txt w folderze Zad3
+    Program przechodzi w dól po drzewie folderów zaczynajac od podanej scieżki, jeżeli trafi na folder
+    tworzy zaczyna to samo na folderze, gdy trafi na plik otwiera go i sprawdza czy znaczyna sie do słowa kluczowego
+
