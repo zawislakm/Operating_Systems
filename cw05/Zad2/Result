@@ -1,0 +1,28 @@
+./main 0.05 20
+
+Czas rzeczywisty: 50562500 ns
+Obliczona wartosc: 3.3746622255
+./main 0.01 100
+
+Czas rzeczywisty: 251748300 ns
+Obliczona wartosc: 3.2309849030
+
+./main 1 2
+
+Czas rzeczywisty: 5660700 ns
+Obliczona wartosc: 7.2000000000
+
+./main 0.05 2
+
+Czas rzeczywisty: 5281300 ns
+Obliczona wartosc: 3.3511759870
+
+./main 0.001 200
+
+Czas rzeczywisty: 485702600 ns
+Obliczona wartosc: 3.1425924869
+
+./main 0.0001 1000
+
+Czas rzeczywisty: 3395757300 ns
+Obliczona wartosc: 3.4149970533

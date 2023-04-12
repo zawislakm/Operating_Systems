@@ -1,0 +1,13 @@
+./sender 357 2 2 3 5
+Sent signal 2
+Waiting for signal back
+Signal back received
+Sent signal 2
+Waiting for signal back
+Signal back received
+Sent signal 3
+Waiting for signal back
+Signal back received
+Sent signal 5
+Waiting for signal back
+Signal back received

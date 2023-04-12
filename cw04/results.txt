@@ -1,0 +1,13 @@
+Zad1:
+    Wyniki wszystkich polecen w folderze Zad1 w pliku result.txt
+    Dla ignore i mask nie ma różnic miedzy fork i exec
+    Różnica wystepuje jedynie w pending gdyż w exec proces oczekujacy w przodku jest widoczny w potomku
+
+Zad2:
+    Wyniki flag w foldrze Zad2 pliku result.txt,
+    SA_SIGINFO ustawia swoj 3 elementowy handler i gdy sie wywoluje SIGUSR1 to poprawinie sie on odpala
+    SA_NOCLDSTOP blokuje i zabije proces potomny, sygnal w dziecku nic nie powoduje
+    SA_NOCLDWAIT ustawia proces potomny w tryb zombie, powstaje on lecz nic nie robi, sygnal w dziecku nic nie powoduje
+
+Zad3:
+    Wysyłają sygnaly miedzy soba poprawnie

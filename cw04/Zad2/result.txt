@@ -1,0 +1,17 @@
+./main SA_SIGINFO
+SA_SIGINFO!
+Child process raising signal!
+Info handler worked
+Signal 10, Code -6, Pid 3200
+Child process signal raised!
+
+./main SA_NOCLDSTOP
+SA_NOCLDSTOP!
+Stop child process, handler only in parent
+Normal handler worked
+
+./main SA_NOCLDWAIT
+SA_NOCLDWAIT!
+Child process raising signal!
+Normal handler worked
+Zombie child

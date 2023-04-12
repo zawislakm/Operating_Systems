@@ -1,0 +1,54 @@
+
+Dla ignore i mask nie ma różnic miedzy fork i exec
+Różnica wystepuje jedynie w pending gdyż w exec proces oczekujacy w przodku jest widoczny w potomku
+
+Testy forka:
+
+./fork ignore
+Ignore!
+Parent raising signal
+Child started!
+Child process raising signal
+
+./fork handler
+Handler!
+Parent raising signal
+Received signal, handler, PID: 31001, PPID: 30981
+Child started!
+Child process raising signal
+Received signal, handler, PID: 31002, PPID: 31001
+
+./fork mask
+Mask!
+Parent raising signal
+Child started!
+Child process raising signal
+
+./fork pending
+Pending!
+Parent raising signal
+Signal pending
+Child started!
+Signal NOT pending
+
+Testy execa:
+
+./exec ignore
+Ignore!
+Parent raising signal
+Child started!
+Child process raising signal
+./exec mask
+
+Mask!
+Parent raising signal
+Child started!
+Child process raising signal
+
+./exec pending
+Pending!
+Parent raising signal
+Signal pending
+Child started!
+Signal pending
+

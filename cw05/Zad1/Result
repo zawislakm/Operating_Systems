@@ -1,0 +1,21 @@
+./main date
+SHOW
+Output:
+
+ U   5 Mail Delivery Syst Tue Apr  4 21:04  72/2568  Undelivered Mail Returned
+ U   4 Mail Delivery Syst Tue Apr  4 20:54  72/2577  Undelivered Mail Returned
+ U   3 Mail Delivery Syst Tue Apr  4 20:54  72/2606  Undelivered Mail Returned
+ U   2 Mail Delivery Syst Tue Apr  4 20:54  72/2575  Undelivered Mail Returned
+>U   1 Mail Delivery Syst Tue Apr  4 20:54  73/2592  Undelivered Mail Returned
+./main sender
+SHOW
+Output:
+
+>U   1 Mail Delivery Syst Tue Apr  4 20:54  73/2592  Undelivered Mail Returned
+ U   2 Mail Delivery Syst Tue Apr  4 20:54  72/2575  Undelivered Mail Returned
+ U   3 Mail Delivery Syst Tue Apr  4 20:54  72/2606  Undelivered Mail Returned
+ U   4 Mail Delivery Syst Tue Apr  4 20:54  72/2577  Undelivered Mail Returned
+ U   5 Mail Delivery Syst Tue Apr  4 21:04  72/2568  Undelivered Mail Returned
+
+
+Nie jestem pewien czy działa to poprawanie
