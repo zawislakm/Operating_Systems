@@ -1,0 +1,17 @@
+Date: 2023-04-19 18:30:49
+[18:30:51], from 55,type: RESPONSE, message: 
+[18:30:58], from 56,type: RESPONSE, message: 
+[18:31:01], from 57,type: RESPONSE, message: 
+[18:31:03], from 58,type: RESPONSE, message: 
+[18:31:15], from 0,type: LIST, message: 
+[18:31:26], from 0,type: 2ALL, message: HELLO!
+
+[18:31:38], from 0,type: 2ONE, message: 2 HI!
+
+[18:31:45], from 1,type: LIST, message:
+
+[18:31:55], from 1,type: 2ONE, message: 0 HELLO THERE!
+
+Server shut down [18:32:06]
+Server shut down [18:32:13]
+Server shut down [18:32:13]
