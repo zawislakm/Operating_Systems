@@ -11,3 +11,7 @@ The repository contains solutions from Operating Systems
 4. [Signals](https://github.com/zawislakm/Operating_Systems_AGH_UST/tree/master/cw04)
 5. [Pipes](https://github.com/zawislakm/Operating_Systems_AGH_UST/tree/master/cw05)
 6. [Message queues](https://github.com/zawislakm/Operating_Systems_AGH_UST/tree/master/cw06)
+
+
+## Test
+1. [Kol1](https://github.com/zawislakm/Operating_Systems_AGH_UST/tree/master/kol1)
