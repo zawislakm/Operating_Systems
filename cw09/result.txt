@@ -1,0 +1,311 @@
+Zad1:
+    Udalo rozwiazac sie zadanie na 100%
+
+Output:
+gcc  main.c -o main -lpthread
+./main
+Simulation start: 17:49:51
+[17:49:51-Mikolaj] Spie
+[17:49:53-Elf-6] Aktualnie 1 elfow czeka na Mikolaja
+[17:49:53-Elf-5] Aktualnie 2 elfow czeka na Mikolaja
+[17:49:53-Elf-7] Aktualnie 3 elfow czeka na Mikolaja
+[17:49:53-Elf-7] Wybudzam Mikolaja
+[17:49:53-Mikolaj] Budze sie!
+[17:49:53-Mikolaj] Rozwiazuje problemy elfow 6, 5, 7
+[17:49:53-Elf-9] Samodzielnie rozwiazuje swoj problem
+[17:49:54-Elf-0] Samodzielnie rozwiazuje swoj problem
+[17:49:55-Mikolaj] Zasypiam
+[17:49:55-Mikolaj] Spie
+[17:49:55-Elf-9] Aktualnie 1 elfow czeka na Mikolaja
+[17:49:55-Elf-0] Aktualnie 2 elfow czeka na Mikolaja
+[17:49:55-Elf-4] Aktualnie 3 elfow czeka na Mikolaja
+[17:49:55-Elf-4] Wybudzam Mikolaja
+[17:49:55-Mikolaj] Budze sie!
+[17:49:55-Mikolaj] Rozwiazuje problemy elfow 9, 0, 4
+[17:49:56-Elf-8] Samodzielnie rozwiazuje swoj problem
+[17:49:56-Renifer-8] Aktualnie 1 reniferow czeka na Mikolaja
+[17:49:56-Mikolaj] Zasypiam
+[17:49:56-Mikolaj] Spie
+[17:49:56-Elf-8] Aktualnie 1 elfow czeka na Mikolaja
+[17:49:56-Elf-1] Aktualnie 2 elfow czeka na Mikolaja
+[17:49:56-Elf-3] Aktualnie 3 elfow czeka na Mikolaja
+[17:49:56-Elf-3] Wybudzam Mikolaja
+[17:49:56-Mikolaj] Budze sie!
+[17:49:56-Mikolaj] Rozwiazuje problemy elfow 8, 1, 3
+[17:49:57-Elf-2] Samodzielnie rozwiazuje swoj problem
+[17:49:57-Elf-9] Samodzielnie rozwiazuje swoj problem
+[17:49:58-Renifer-3] Aktualnie 2 reniferow czeka na Mikolaja
+[17:49:58-Elf-6] Samodzielnie rozwiazuje swoj problem
+[17:49:58-Elf-5] Samodzielnie rozwiazuje swoj problem
+[17:49:58-Mikolaj] Zasypiam
+[17:49:58-Mikolaj] Spie
+[17:49:58-Elf-2] Aktualnie 1 elfow czeka na Mikolaja
+[17:49:58-Elf-9] Aktualnie 2 elfow czeka na Mikolaja
+[17:49:58-Elf-6] Aktualnie 3 elfow czeka na Mikolaja
+[17:49:58-Elf-6] Wybudzam Mikolaja
+[17:49:58-Mikolaj] Budze sie!
+[17:49:58-Mikolaj] Rozwiazuje problemy elfow 2, 9, 6
+[17:49:59-Renifer-7] Aktualnie 3 reniferow czeka na Mikolaja
+[17:49:59-Elf-7] Samodzielnie rozwiazuje swoj problem
+[17:49:59-Elf-0] Samodzielnie rozwiazuje swoj problem
+[17:49:59-Elf-1] Samodzielnie rozwiazuje swoj problem
+[17:49:59-Elf-4] Samodzielnie rozwiazuje swoj problem
+[17:49:59-Mikolaj] Zasypiam
+[17:49:59-Mikolaj] Spie
+[17:49:59-Elf-7] Aktualnie 1 elfow czeka na Mikolaja
+[17:49:59-Elf-0] Aktualnie 2 elfow czeka na Mikolaja
+[17:49:59-Elf-1] Aktualnie 3 elfow czeka na Mikolaja
+[17:49:59-Elf-1] Wybudzam Mikolaja
+[17:49:59-Mikolaj] Budze sie!
+[17:49:59-Mikolaj] Rozwiazuje problemy elfow 7, 0, 1
+[17:50:00-Elf-3] Samodzielnie rozwiazuje swoj problem
+[17:50:00-Elf-2] Samodzielnie rozwiazuje swoj problem
+[17:50:00-Elf-6] Aktualnie 1 elfow czeka na Mikolaja
+[17:50:00-Mikolaj] Zasypiam
+[17:50:00-Mikolaj] Spie
+[17:50:00-Elf-3] Aktualnie 2 elfow czeka na Mikolaja
+[17:50:00-Elf-2] Aktualnie 3 elfow czeka na Mikolaja
+[17:50:00-Elf-2] Wybudzam Mikolaja
+[17:50:00-Mikolaj] Budze sie!
+[17:50:00-Mikolaj] Rozwiazuje problemy elfow 6, 3, 2
+[17:50:01-Elf-9] Samodzielnie rozwiazuje swoj problem
+[17:50:02-Elf-8] Samodzielnie rozwiazuje swoj problem
+[17:50:02-Mikolaj] Zasypiam
+[17:50:02-Mikolaj] Spie
+[17:50:02-Renifer-5] Aktualnie 4 reniferow czeka na Mikolaja
+[17:50:02-Renifer-0] Aktualnie 5 reniferow czeka na Mikolaja
+[17:50:02-Elf-1] Aktualnie 1 elfow czeka na Mikolaja
+[17:50:02-Elf-2] Aktualnie 2 elfow czeka na Mikolaja
+[17:50:02-Elf-8] Aktualnie 3 elfow czeka na Mikolaja
+[17:50:02-Elf-8] Wybudzam Mikolaja
+[17:50:02-Mikolaj] Budze sie!
+[17:50:02-Mikolaj] Rozwiazuje problemy elfow 1, 2, 8
+[17:50:03-Renifer-1] Aktualnie 6 reniferow czeka na Mikolaja
+[17:50:03-Elf-5] Samodzielnie rozwiazuje swoj problem
+[17:50:03-Elf-7] Samodzielnie rozwiazuje swoj problem
+[17:50:03-Elf-6] Samodzielnie rozwiazuje swoj problem
+[17:50:04-Renifer-4] Aktualnie 7 reniferow czeka na Mikolaja
+[17:50:04-Renifer-6] Aktualnie 8 reniferow czeka na Mikolaja
+[17:50:04-Elf-0] Samodzielnie rozwiazuje swoj problem
+[17:50:04-Elf-3] Samodzielnie rozwiazuje swoj problem
+[17:50:04-Elf-1] Samodzielnie rozwiazuje swoj problem
+[17:50:04-Elf-9] Samodzielnie rozwiazuje swoj problem
+[17:50:04-Mikolaj] Zasypiam
+[17:50:04-Elf-5] Aktualnie 1 elfow czeka na Mikolaja
+[17:50:04-Elf-7] Aktualnie 2 elfow czeka na Mikolaja
+[17:50:04-Mikolaj] Spie
+[17:50:04-Elf-6] Aktualnie 3 elfow czeka na Mikolaja
+[17:50:04-Elf-6] Wybudzam Mikolaja
+[17:50:04-Mikolaj] Budze sie!
+[17:50:04-Mikolaj] Rozwiazuje problemy elfow 5, 7, 6
+[17:50:05-Renifer-2] Aktualnie 9 reniferow czeka na Mikolaja
+[17:50:05-Renifer-2] Wybudzam Mikolaja
+[17:50:05-Elf-3] Aktualnie 1 elfow czeka na Mikolaja
+[17:50:05-Mikolaj] Dostarczam zabawki 1
+[17:50:05-Elf-4] Aktualnie 2 elfow czeka na Mikolaja
+[17:50:05-Elf-1] Aktualnie 3 elfow czeka na Mikolaja
+[17:50:05-Elf-1] Wybudzam Mikolaja
+[17:50:06-Elf-2] Samodzielnie rozwiazuje swoj problem
+[17:50:07-Mikolaj] Zasypiam
+[17:50:07-Mikolaj] Budze sie!
+[17:50:07-Mikolaj] Rozwiazuje problemy elfow 3, 4, 1
+[17:50:07-Elf-9] Samodzielnie rozwiazuje swoj problem
+[17:50:08-Elf-8] Samodzielnie rozwiazuje swoj problem
+[17:50:08-Elf-6] Samodzielnie rozwiazuje swoj problem
+[17:50:09-Elf-7] Samodzielnie rozwiazuje swoj problem
+[17:50:09-Elf-5] Samodzielnie rozwiazuje swoj problem
+[17:50:09-Elf-4] Samodzielnie rozwiazuje swoj problem
+[17:50:09-Mikolaj] Zasypiam
+[17:50:09-Mikolaj] Spie
+[17:50:09-Elf-9] Aktualnie 1 elfow czeka na Mikolaja
+[17:50:09-Elf-8] Aktualnie 2 elfow czeka na Mikolaja
+[17:50:09-Elf-6] Aktualnie 3 elfow czeka na Mikolaja
+[17:50:09-Elf-6] Wybudzam Mikolaja
+[17:50:09-Mikolaj] Budze sie!
+[17:50:09-Mikolaj] Rozwiazuje problemy elfow 9, 8, 6
+[17:50:10-Elf-3] Samodzielnie rozwiazuje swoj problem
+[17:50:10-Elf-1] Samodzielnie rozwiazuje swoj problem
+[17:50:11-Elf-2] Samodzielnie rozwiazuje swoj problem
+[17:50:11-Mikolaj] Zasypiam
+[17:50:11-Mikolaj] Spie
+[17:50:11-Elf-0] Aktualnie 1 elfow czeka na Mikolaja
+[17:50:11-Elf-4] Aktualnie 2 elfow czeka na Mikolaja
+[17:50:11-Elf-5] Aktualnie 3 elfow czeka na Mikolaja
+[17:50:11-Elf-5] Wybudzam Mikolaja
+[17:50:11-Mikolaj] Budze sie!
+[17:50:11-Mikolaj] Rozwiazuje problemy elfow 0, 4, 5
+[17:50:12-Renifer-7] Aktualnie 1 reniferow czeka na Mikolaja
+[17:50:12-Renifer-3] Aktualnie 2 reniferow czeka na Mikolaja
+[17:50:12-Mikolaj] Zasypiam
+[17:50:12-Mikolaj] Spie
+[17:50:12-Elf-1] Aktualnie 1 elfow czeka na Mikolaja
+[17:50:12-Elf-2] Aktualnie 2 elfow czeka na Mikolaja
+[17:50:12-Elf-3] Aktualnie 3 elfow czeka na Mikolaja
+[17:50:12-Elf-3] Wybudzam Mikolaja
+[17:50:12-Mikolaj] Budze sie!
+[17:50:12-Mikolaj] Rozwiazuje problemy elfow 1, 2, 3
+[17:50:13-Renifer-5] Aktualnie 3 reniferow czeka na Mikolaja
+[17:50:13-Renifer-2] Aktualnie 4 reniferow czeka na Mikolaja
+[17:50:13-Elf-9] Samodzielnie rozwiazuje swoj problem
+[17:50:13-Elf-7] Samodzielnie rozwiazuje swoj problem
+[17:50:13-Elf-0] Samodzielnie rozwiazuje swoj problem
+[17:50:14-Renifer-0] Aktualnie 5 reniferow czeka na Mikolaja
+[17:50:14-Elf-6] Samodzielnie rozwiazuje swoj problem
+[17:50:14-Elf-8] Samodzielnie rozwiazuje swoj problem
+[17:50:14-Mikolaj] Zasypiam
+[17:50:14-Mikolaj] Spie
+[17:50:14-Elf-9] Aktualnie 1 elfow czeka na Mikolaja
+[17:50:14-Elf-4] Aktualnie 2 elfow czeka na Mikolaja
+[17:50:14-Elf-7] Aktualnie 3 elfow czeka na Mikolaja
+[17:50:14-Elf-7] Wybudzam Mikolaja
+[17:50:14-Mikolaj] Budze sie!
+[17:50:14-Mikolaj] Rozwiazuje problemy elfow 9, 4, 7
+[17:50:15-Renifer-1] Aktualnie 6 reniferow czeka na Mikolaja
+[17:50:15-Renifer-6] Aktualnie 7 reniferow czeka na Mikolaja
+[17:50:15-Elf-5] Samodzielnie rozwiazuje swoj problem
+[17:50:15-Elf-3] Samodzielnie rozwiazuje swoj problem
+[17:50:15-Mikolaj] Zasypiam
+[17:50:15-Mikolaj] Spie
+[17:50:15-Elf-6] Aktualnie 1 elfow czeka na Mikolaja
+[17:50:15-Elf-8] Aktualnie 2 elfow czeka na Mikolaja
+[17:50:15-Elf-0] Aktualnie 3 elfow czeka na Mikolaja
+[17:50:15-Elf-0] Wybudzam Mikolaja
+[17:50:15-Mikolaj] Budze sie!
+[17:50:15-Mikolaj] Rozwiazuje problemy elfow 6, 8, 0
+[17:50:16-Elf-2] Samodzielnie rozwiazuje swoj problem
+[17:50:16-Mikolaj] Zasypiam
+[17:50:16-Mikolaj] Spie
+[17:50:16-Elf-3] Aktualnie 1 elfow czeka na Mikolaja
+[17:50:16-Elf-5] Aktualnie 2 elfow czeka na Mikolaja
+[17:50:16-Elf-2] Aktualnie 3 elfow czeka na Mikolaja
+[17:50:16-Elf-2] Wybudzam Mikolaja
+[17:50:16-Mikolaj] Budze sie!
+[17:50:16-Mikolaj] Rozwiazuje problemy elfow 3, 5, 2
+[17:50:17-Mikolaj] Zasypiam
+[17:50:17-Mikolaj] Spie
+[17:50:18-Elf-1] Aktualnie 1 elfow czeka na Mikolaja
+[17:50:18-Elf-3] Aktualnie 2 elfow czeka na Mikolaja
+[17:50:18-Elf-2] Aktualnie 3 elfow czeka na Mikolaja
+[17:50:18-Elf-2] Wybudzam Mikolaja
+[17:50:18-Mikolaj] Budze sie!
+[17:50:18-Mikolaj] Rozwiazuje problemy elfow 1, 3, 2
+[17:50:19-Renifer-4] Aktualnie 8 reniferow czeka na Mikolaja
+[17:50:19-Renifer-8] Aktualnie 9 reniferow czeka na Mikolaja
+[17:50:19-Renifer-8] Wybudzam Mikolaja
+[17:50:19-Elf-7] Samodzielnie rozwiazuje swoj problem
+[17:50:19-Mikolaj] Dostarczam zabawki 2
+[17:50:19-Elf-7] Aktualnie 1 elfow czeka na Mikolaja
+[17:50:20-Elf-9] Aktualnie 2 elfow czeka na Mikolaja
+[17:50:20-Elf-4] Aktualnie 3 elfow czeka na Mikolaja
+[17:50:20-Elf-4] Wybudzam Mikolaja
+[17:50:20-Elf-8] Samodzielnie rozwiazuje swoj problem
+[17:50:20-Elf-5] Samodzielnie rozwiazuje swoj problem
+[17:50:21-Elf-0] Samodzielnie rozwiazuje swoj problem
+[17:50:21-Elf-6] Samodzielnie rozwiazuje swoj problem
+[17:50:21-Mikolaj] Zasypiam
+[17:50:21-Mikolaj] Budze sie!
+[17:50:21-Mikolaj] Rozwiazuje problemy elfow 7, 9, 4
+[17:50:22-Elf-2] Samodzielnie rozwiazuje swoj problem
+[17:50:22-Elf-5] Samodzielnie rozwiazuje swoj problem
+[17:50:23-Elf-6] Samodzielnie rozwiazuje swoj problem
+[17:50:23-Mikolaj] Zasypiam
+[17:50:23-Mikolaj] Spie
+[17:50:23-Elf-2] Aktualnie 1 elfow czeka na Mikolaja
+[17:50:23-Elf-5] Aktualnie 2 elfow czeka na Mikolaja
+[17:50:23-Elf-6] Aktualnie 3 elfow czeka na Mikolaja
+[17:50:23-Elf-6] Wybudzam Mikolaja
+[17:50:23-Mikolaj] Budze sie!
+[17:50:23-Mikolaj] Rozwiazuje problemy elfow 2, 5, 6
+[17:50:24-Elf-1] Samodzielnie rozwiazuje swoj problem
+[17:50:24-Elf-4] Samodzielnie rozwiazuje swoj problem
+[17:50:24-Elf-8] Samodzielnie rozwiazuje swoj problem
+[17:50:24-Elf-3] Samodzielnie rozwiazuje swoj problem
+[17:50:24-Elf-0] Samodzielnie rozwiazuje swoj problem
+[17:50:25-Elf-7] Samodzielnie rozwiazuje swoj problem
+[17:50:25-Elf-6] Samodzielnie rozwiazuje swoj problem
+[17:50:25-Mikolaj] Zasypiam
+[17:50:25-Mikolaj] Spie
+[17:50:25-Elf-1] Aktualnie 1 elfow czeka na Mikolaja
+[17:50:25-Elf-4] Aktualnie 2 elfow czeka na Mikolaja
+[17:50:25-Elf-8] Aktualnie 3 elfow czeka na Mikolaja
+[17:50:25-Elf-8] Wybudzam Mikolaja
+[17:50:25-Mikolaj] Budze sie!
+[17:50:25-Mikolaj] Rozwiazuje problemy elfow 1, 4, 8
+[17:50:26-Elf-9] Samodzielnie rozwiazuje swoj problem
+[17:50:26-Renifer-8] Aktualnie 1 reniferow czeka na Mikolaja
+[17:50:26-Elf-5] Samodzielnie rozwiazuje swoj problem
+[17:50:27-Renifer-7] Aktualnie 2 reniferow czeka na Mikolaja
+[17:50:27-Elf-1] Samodzielnie rozwiazuje swoj problem
+[17:50:27-Elf-0] Aktualnie 1 elfow czeka na Mikolaja
+[17:50:27-Elf-7] Aktualnie 2 elfow czeka na Mikolaja
+[17:50:27-Mikolaj] Zasypiam
+[17:50:27-Mikolaj] Spie
+[17:50:27-Elf-6] Aktualnie 3 elfow czeka na Mikolaja
+[17:50:27-Elf-6] Wybudzam Mikolaja
+[17:50:27-Mikolaj] Budze sie!
+[17:50:27-Mikolaj] Rozwiazuje problemy elfow 0, 7, 6
+[17:50:28-Mikolaj] Zasypiam
+[17:50:28-Elf-1] Aktualnie 1 elfow czeka na Mikolaja
+[17:50:28-Elf-5] Aktualnie 2 elfow czeka na Mikolaja
+[17:50:28-Mikolaj] Spie
+[17:50:29-Renifer-2] Aktualnie 3 reniferow czeka na Mikolaja
+[17:50:29-Elf-2] Aktualnie 3 elfow czeka na Mikolaja
+[17:50:29-Elf-2] Wybudzam Mikolaja
+[17:50:29-Elf-4] Samodzielnie rozwiazuje swoj problem
+[17:50:29-Mikolaj] Budze sie!
+[17:50:29-Mikolaj] Rozwiazuje problemy elfow 1, 5, 2
+[17:50:29-Elf-9] Samodzielnie rozwiazuje swoj problem
+[17:50:29-Elf-6] Samodzielnie rozwiazuje swoj problem
+[17:50:29-Elf-3] Samodzielnie rozwiazuje swoj problem
+[17:50:30-Renifer-3] Aktualnie 4 reniferow czeka na Mikolaja
+[17:50:30-Elf-9] Aktualnie 1 elfow czeka na Mikolaja
+[17:50:30-Elf-6] Aktualnie 2 elfow czeka na Mikolaja
+[17:50:30-Mikolaj] Zasypiam
+[17:50:30-Mikolaj] Spie
+[17:50:30-Elf-3] Aktualnie 3 elfow czeka na Mikolaja
+[17:50:30-Elf-3] Wybudzam Mikolaja
+[17:50:30-Mikolaj] Budze sie!
+[17:50:30-Mikolaj] Rozwiazuje problemy elfow 9, 6, 3
+[17:50:30-Elf-7] Samodzielnie rozwiazuje swoj problem
+[17:50:31-Renifer-5] Aktualnie 5 reniferow czeka na Mikolaja
+[17:50:31-Elf-8] Samodzielnie rozwiazuje swoj problem
+[17:50:31-Elf-2] Samodzielnie rozwiazuje swoj problem
+[17:50:31-Mikolaj] Zasypiam
+[17:50:31-Mikolaj] Spie
+[17:50:31-Elf-7] Aktualnie 1 elfow czeka na Mikolaja
+[17:50:31-Elf-8] Aktualnie 2 elfow czeka na Mikolaja
+[17:50:31-Elf-2] Aktualnie 3 elfow czeka na Mikolaja
+[17:50:31-Elf-2] Wybudzam Mikolaja
+[17:50:31-Mikolaj] Budze sie!
+[17:50:31-Mikolaj] Rozwiazuje problemy elfow 7, 8, 2
+[17:50:31-Elf-5] Samodzielnie rozwiazuje swoj problem
+[17:50:32-Mikolaj] Zasypiam
+[17:50:32-Mikolaj] Spie
+[17:50:32-Elf-5] Aktualnie 1 elfow czeka na Mikolaja
+[17:50:32-Elf-0] Aktualnie 2 elfow czeka na Mikolaja
+[17:50:33-Renifer-4] Aktualnie 6 reniferow czeka na Mikolaja
+[17:50:33-Elf-3] Aktualnie 3 elfow czeka na Mikolaja
+[17:50:33-Elf-3] Wybudzam Mikolaja
+[17:50:33-Mikolaj] Budze sie!
+[17:50:33-Mikolaj] Rozwiazuje problemy elfow 5, 0, 3
+[17:50:34-Renifer-1] Aktualnie 7 reniferow czeka na Mikolaja
+[17:50:34-Elf-8] Samodzielnie rozwiazuje swoj problem
+[17:50:34-Elf-7] Samodzielnie rozwiazuje swoj problem
+[17:50:34-Elf-1] Samodzielnie rozwiazuje swoj problem
+[17:50:35-Renifer-0] Aktualnie 8 reniferow czeka na Mikolaja
+[17:50:35-Renifer-6] Aktualnie 9 reniferow czeka na Mikolaja
+[17:50:35-Renifer-6] Wybudzam Mikolaja
+[17:50:35-Elf-4] Samodzielnie rozwiazuje swoj problem
+[17:50:35-Elf-2] Samodzielnie rozwiazuje swoj problem
+[17:50:35-Mikolaj] Dostarczam zabawki 3
+[17:50:35-Elf-8] Aktualnie 1 elfow czeka na Mikolaja
+[17:50:35-Elf-7] Aktualnie 2 elfow czeka na Mikolaja
+[17:50:35-Elf-1] Aktualnie 3 elfow czeka na Mikolaja
+[17:50:35-Elf-1] Wybudzam Mikolaja
+[17:50:36-Elf-9] Samodzielnie rozwiazuje swoj problem
+[17:50:36-Elf-3] Samodzielnie rozwiazuje swoj problem
+[17:50:36-Elf-6] Samodzielnie rozwiazuje swoj problem
+[17:50:36-Elf-5] Samodzielnie rozwiazuje swoj problem
+[17:50:37-Mikolaj] Koniec Swiat!
+Simulation end: 17:50:37
+

@@ -1,0 +1,25 @@
+./pc
+Producer 2: Insert Item 1804289383 at 0
+Producer 1: Insert Item 846930886 at 1
+Consumer 1: Remove Item 1804289383 from 0
+Consumer 2: Remove Item 846930886 from 1
+Producer 3: Insert Item 1681692777 at 0
+Producer 4: Insert Item 1714636915 at 1
+Consumer 4: Remove Item 1681692777 from 0
+Consumer 3: Remove Item 1714636915 from 1
+Producer 2: Insert Item 1957747793 at 0
+Producer 1: Insert Item 424238335 at 1
+Consumer 1: Remove Item 1957747793 from 0
+Consumer 2: Remove Item 424238335 from 1
+Producer 3: Insert Item 719885386 at 0
+Producer 4: Insert Item 1649760492 at 1
+Consumer 3: Remove Item 719885386 from 0
+Producer 2: Insert Item 596516649 at 0
+Consumer 4: Remove Item 1649760492 from 1
+Producer 1: Insert Item 1189641421 at 1
+Consumer 1: Remove Item 596516649 from 0
+Consumer 2: Remove Item 1189641421 from 1
+Producer 3: Insert Item 1025202362 at 0
+Producer 4: Insert Item 1350490027 at 1
+Consumer 4: Remove Item 1025202362 from 0
+Consumer 3: Remove Item 1350490027 from 1

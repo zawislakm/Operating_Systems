@@ -1,0 +1,30 @@
+Wynik Symulacji
+gcc -o main main.c
+./main
+13:34:53 Main
+Barbers: 3
+Chairs: 2
+Clients: 4
+
+Start
+13:34:54 Barber -> Spawn
+13:34:54 Barber -> Spawn
+13:34:54 Barber -> Spawn
+13:34:55 Main-Barber Fork -> Barbers spawned
+13:34:56 Client -> Haircut number 2
+13:34:56 Barber -> Working on haircut number, 2
+13:34:57 Barber -> Done working on haircut number, 2
+13:34:57 Client -> Client done!
+13:34:58 Client -> Haircut number 2
+13:34:58 Client -> Client done!
+13:35:00 Client -> Haircut number 4
+13:35:00 Barber -> Working on haircut number, 4
+13:35:02 Barber -> Done working on haircut number, 4
+13:35:02 Client -> Client done!
+13:35:02 Client -> Haircut number 5
+13:35:02 Client -> Client done!
+13:35:04 Main -> Clients spawned
+13:35:08 Barber -> End of shift
+13:35:10 Barber -> End of shift
+13:35:13 Barber -> End of shift
+13:35:13 Main -> End simulation

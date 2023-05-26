@@ -1,0 +1,36 @@
+Wynik symulacji SystemV
+gcc -o main main.c
+./main
+13:33:09 Main
+Barbers: 3
+Chairs: 2
+Clients: 6
+
+Start
+13:33:10 Barber -> Spawn
+13:33:10 Barber -> Spawn
+13:33:10 Barber -> Spawn
+13:33:11 Main-Barber Fork -> Barbers spawned
+13:33:12 Client -> Haircut number 3
+13:33:12 Barber -> Working on haircut number, 3
+13:33:12 Barber -> Done working on haircut number, 3
+13:33:12 Client -> Client done!
+13:33:14 Client -> Haircut number 2
+13:33:14 Barber -> Working on haircut number, 2
+13:33:14 Barber -> Done working on haircut number, 2
+13:33:14 Client -> Client done!
+13:33:16 Client -> Haircut number 2
+13:33:16 Barber -> Working on haircut number, 2
+13:33:16 Barber -> Done working on haircut number, 2
+13:33:16 Client -> Client done!
+13:33:18 Client -> Haircut number 4
+13:33:20  NO PLACE IN QUEUE FOR CLIENT 15030!!
+13:33:22  NO PLACE IN QUEUE FOR CLIENT 15031!!
+13:33:22 Barber -> Working on haircut number, 4
+13:33:22 Barber -> Done working on haircut number, 4
+13:33:22 Client -> Client done!
+13:33:24 Barber -> End of shift
+13:33:24 Main -> Clients spawned
+13:33:26 Barber -> End of shift
+13:33:32 Barber -> End of shift
+13:33:32 Main -> End simulation
