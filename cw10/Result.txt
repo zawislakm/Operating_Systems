@@ -1,0 +1,156 @@
+Zad1:
+    Server output:
+        ./server 8082 /tmp/socket
+        [16:25:46-Server], Server stared on: 8082 and path: /tmp/socket
+        [16:25:50-Server] New client: First
+        [16:25:54-Server] New client: Second
+        [16:25:59-Server] Got message type: LIST, message:
+        [16:26:01-Server] Pinging clients
+        [16:26:01-Server] Got message type: PING, message:
+        [16:26:01-Server] Ping First
+        [16:26:01-Server] Got message type: PING, message:
+        [16:26:01-Server] Ping Second
+        [16:26:09-Server] New client: Third
+        [16:26:14-Server] Got message type: LIST, message:
+        [16:26:16-Server] Pinging clients
+        [16:26:16-Server] Got message type: PING, message:
+        [16:26:16-Server] Ping First
+        [16:26:16-Server] Got message type: PING, message:
+        [16:26:16-Server] Ping Second
+        [16:26:16-Server] Got message type: PING, message:
+        [16:26:16-Server] Ping Third
+        [16:26:23-Server] Got message type: 2ALL, message: HI
+
+        [16:26:30-Server] Got message type: 2ALL, message: HELLO
+
+        [16:26:31-Server] Pinging clients
+        [16:26:31-Server] Got message type: PING, message:
+        [16:26:31-Server] Ping Third
+        [16:26:31-Server] Got message type: PING, message:
+        [16:26:31-Server] Ping Second
+        [16:26:31-Server] Got message type: PING, message:
+        [16:26:31-Server] Ping First
+        [16:26:34-Server] Server is full
+
+    First client:
+        ./client First unix /tmp/socket
+        LIST
+        First
+        Second
+        2ALL HI
+        First: HI
+
+        Second: HELLO
+    Second client:
+        ./client Second  unix /tmp/socket
+        First: HI
+        2ALL HELLO
+        Second: HELLO
+
+    Third client:
+        ./client Third unix /tmp/socket
+        LIST
+        First
+        Second
+        Third
+        First: HI
+
+        Second: HELLO
+
+
+    Fourth client:
+        ./client Fourth unix /tmp/socket
+        Server is full
+
+
+Zad2:
+    Server output:
+        /server 8082 /tmp/socket
+        [13:05:49-Server], Server stared on: 8082 and path: /tmp/socket
+        [13:05:51-Server] New client First
+        [13:05:52-Server] New client Second
+        [13:05:56-Server] Nickname is already taken
+        [13:06:00-Server] New client Third
+        [13:06:04-Server] Pinging clients
+        [13:06:04-Server] Got message type: PING, message:
+        [13:06:04-Server] Ping Third
+        [13:06:04-Server] Got message type: PING, message:
+        [13:06:04-Server] Ping Second
+        [13:06:04-Server] Got message type: PING, message:
+        [13:06:04-Server] Ping First
+        [13:06:04-Server] Got message type: LIST, message:
+        [13:06:15-Server] Server full
+        [13:06:18-Server] Got message type: LIST, message:
+        [13:06:19-Server] Pinging clients
+        [13:06:19-Server] Got message type: PING, message:
+        [13:06:19-Server] Ping Second
+        [13:06:19-Server] Got message type: PING, message:
+        [13:06:19-Server] Ping First
+        [13:06:19-Server] Got message type: PING, message:
+        [13:06:19-Server] Ping Third
+        [13:06:27-Server] Got message type: 2ALL, message: HELLO
+
+        [13:06:34-Server] Pinging clients
+        [13:06:34-Server] Got message type: PING, message:
+        [13:06:34-Server] Ping Second
+        [13:06:34-Server] Got message type: PING, message:
+        [13:06:34-Server] Ping Third
+        [13:06:34-Server] Got message type: PING, message:
+        [13:06:34-Server] Ping First
+        [13:06:36-Server] Got message type: 2ALL, message: HI
+
+        [13:06:49-Server] Pinging clients
+        [13:06:49-Server] Got message type: PING, message:
+        [13:06:49-Server] Ping Second
+        [13:06:49-Server] Got message type: PING, message:
+        [13:06:49-Server] Ping Third
+        [13:06:49-Server] Got message type: PING, message:
+        [13:06:49-Server] Ping First
+        [13:06:55-Server] Got message type: DISCONNECT, message:
+        [13:06:55-Server] Deleting client: First
+        [13:06:56-Server] Got message type: DISCONNECT, message:
+        [13:06:56-Server] Deleting client: Second
+
+
+    First client:
+        ./client First unix /tmp/socket
+        LIST
+        First
+        Second
+        Third
+        Third: HELLO
+
+        2ALL HI
+        First: HI
+
+
+        Second: HELLO
+    Second client:
+        ./client Second  unix /tmp/socket
+        LIST
+        First
+        Second
+        Third
+        Third: HELLO
+
+        First: HI
+
+
+
+    Third client:
+        ./client Third unix /tmp/socket
+        2ALL HELLO
+        Third: HELLO
+
+        First: HI
+
+
+
+    Fourth client:
+        maksvb@ubunut2:~/sysopy/Lab10/Zad2$ ./client Second  unix /tmp/socket
+        This nick is already TAKEN
+        maksvb@ubunut2:~/sysopy/Lab10/Zad2$ ./client Fourth  unix /tmp/socket
+        Server is full
+
+
+

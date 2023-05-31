@@ -14,6 +14,7 @@ The repository contains solutions from Operating Systems
 7. [Semaphores](https://github.com/zawislakm/Operating_Systems_AGH_UST/tree/master/cw07)
 8. [Threads](https://github.com/zawislakm/Operating_Systems_AGH_UST/tree/master/cw08)
 9. [Synchronized Threads](https://github.com/zawislakm/Operating_Systems_AGH_UST/tree/master/cw09)
+10. [Sockets](https://github.com/zawislakm/Operating_Systems_AGH_UST/tree/master/cw10)
 
 
 ## Test

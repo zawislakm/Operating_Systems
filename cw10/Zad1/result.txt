@@ -1,0 +1,64 @@
+Server output:
+    ./server 8082 /tmp/socket
+    [16:25:46-Server], Server stared on: 8082 and path: /tmp/socket
+    [16:25:50-Server] New client: First
+    [16:25:54-Server] New client: Second
+    [16:25:59-Server] Got message type: LIST, message:
+    [16:26:01-Server] Pinging clients
+    [16:26:01-Server] Got message type: PING, message:
+    [16:26:01-Server] Ping First
+    [16:26:01-Server] Got message type: PING, message:
+    [16:26:01-Server] Ping Second
+    [16:26:09-Server] New client: Third
+    [16:26:14-Server] Got message type: LIST, message:
+    [16:26:16-Server] Pinging clients
+    [16:26:16-Server] Got message type: PING, message:
+    [16:26:16-Server] Ping First
+    [16:26:16-Server] Got message type: PING, message:
+    [16:26:16-Server] Ping Second
+    [16:26:16-Server] Got message type: PING, message:
+    [16:26:16-Server] Ping Third
+    [16:26:23-Server] Got message type: 2ALL, message: HI
+
+    [16:26:30-Server] Got message type: 2ALL, message: HELLO
+
+    [16:26:31-Server] Pinging clients
+    [16:26:31-Server] Got message type: PING, message:
+    [16:26:31-Server] Ping Third
+    [16:26:31-Server] Got message type: PING, message:
+    [16:26:31-Server] Ping Second
+    [16:26:31-Server] Got message type: PING, message:
+    [16:26:31-Server] Ping First
+    [16:26:34-Server] Server is full
+
+First client:
+    ./client First unix /tmp/socket
+    LIST
+    First
+    Second
+    2ALL HI
+    First: HI
+
+    Second: HELLO
+Second client:
+    ./client Second  unix /tmp/socket
+    First: HI
+    2ALL HELLO
+    Second: HELLO
+
+Third client:
+    ./client Third unix /tmp/socket
+    LIST
+    First
+    Second
+    Third
+    First: HI
+
+    Second: HELLO
+
+
+Fourth client:
+    ./client Fourth unix /tmp/socket
+    Server is full
+
+
