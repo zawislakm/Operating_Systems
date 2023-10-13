@@ -5,7 +5,6 @@
 Zaprojektuj i przygotuj zestaw funkcji (bibliotekę) do zarządzania tablicą bloków, w których zapisywane są rezultaty operacji zliczania lini, słów i znaków (poleceniem wc) w plikach przekazywanych jako odpowiedni parametr.
 
 Poniżej, jeżeli mowa o zliczaniu ilośći słów, chodzi o wykonanie programu wc w trybie domyślnym.
-
 Interfejs biblioteki powinien obejmować 5 funkcji realizujących następujące zadania:
 
 Utworzenie i zwrócenie struktury zawierającej:
